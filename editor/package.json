@@ -1,0 +1,48 @@
+{
+  "name": "editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hocuspocus/provider": "^2.13.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-collaboration": "^2.4.0",
+    "@tiptap/extension-collaboration-cursor": "^2.4.0",
+    "@tiptap/extension-document": "^2.4.0",
+    "@tiptap/extension-paragraph": "^2.4.0",
+    "@tiptap/extension-placeholder": "^2.4.0",
+    "@tiptap/extension-text": "^2.4.0",
+    "@tiptap/react": "^2.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "y-webrtc": "^10.3.0",
+    "yjs": "^13.6.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
